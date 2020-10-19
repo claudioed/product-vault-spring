@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    vault:
+      application-name: ${VAULT_SECRET_NAME:product-vault}
+      enabled: ${VAULT_ENABLED:true}
+      host: ${VAULT_HOST:localhost}
+      port: ${VAULT_PORT:8200}
+      scheme: ${VAULT_SCHEME:http}
+      token: ${VAULT_TOKEN:ee413645-dbe8-4848-afc6-6bb2768ada75}
