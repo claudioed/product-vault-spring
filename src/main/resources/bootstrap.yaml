@@ -1,7 +1,7 @@
 spring:
   cloud:
     vault:
-      application-name: ${VAULT_SECRET_NAME:product-vault}
+      application-name: ${VAULT_SECRET_NAME:product-vault-spring}
       enabled: ${VAULT_ENABLED:true}
       host: ${VAULT_HOST:localhost}
       port: ${VAULT_PORT:8200}
