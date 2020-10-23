@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: ${DB_URL}
-    username: ${DB_USER:postgres}
-    password: ${DB_PASS}
+    username: changeit
+    password: changeit
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
